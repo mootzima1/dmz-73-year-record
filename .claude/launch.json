@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "duet-chat",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["C:/Users/CMEDIA/.claude/skills/duet/app/server.py", "--port", "8765",
+                      "--workdir", "C:/Users/CMEDIA/OneDrive/바탕 화면/vs코드/source video/0919"],
+      "port": 8765
+    }
+  ]
+}

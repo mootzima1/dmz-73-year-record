@@ -1,0 +1,24 @@
+# 원본 미디어 — 용량이 크고(412MB) 재수급 가능하므로 추적하지 않는다.
+# 재다운로드: docs/dl_ehistory.py  (e영상역사관 대한뉴스)
+source/**/*.mp4
+source/**/*.mov
+source/**/*.mkv
+source/**/*.wav
+source/**/*.mp3
+source/**/*.png
+source/**/*.jpg
+source/**/*.jpeg
+output/*.mp4
+music/*.mp3
+
+# 중간 산출물
+_work/
+*.tmp
+
+# 에이전트 실행 기록은 남긴다(.omc/artifacts) — 되돌리기 근거가 되므로 추적.
+# 단 캐시성 파일은 제외.
+.omc/logs/
+.omc/state/
+
+__pycache__/
+*.pyc
