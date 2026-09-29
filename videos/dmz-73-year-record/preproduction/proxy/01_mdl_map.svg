@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="1장 MDL/DMZ 지도">
+  <title>1장 MDL/DMZ 지도</title>
+  <rect width="1920" height="1080" fill="#0E1113"/>
+
+  <rect x="120" y="200" width="1680" height="170" fill="#2A3136" opacity="0.55"/>
+  <rect x="120" y="670" width="1680" height="170" fill="#2A3136" opacity="0.55"/>
+  <text x="200" y="310" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="40" font-weight="500" fill="#8A9299" text-anchor="start" letter-spacing="0" opacity="1">북</text>
+  <text x="200" y="780" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="40" font-weight="500" fill="#8A9299" text-anchor="start" letter-spacing="0" opacity="1">남</text>
+
+  <rect x="120" y="370" width="1680" height="300" fill="#0E1113"/>
+  <line x1="120" y1="370" x2="1800" y2="370" stroke="#8A9299" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="120" y1="670" x2="1800" y2="670" stroke="#8A9299" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="120" y1="520" x2="1800" y2="520" stroke="#E8E3D9" stroke-width="4"/>
+  <text x="1770" y="502" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="34" font-weight="600" fill="#E8E3D9" text-anchor="end" letter-spacing="0" opacity="1">MDL 군사분계선</text>
+
+  <line x1="300" y1="520" x2="300" y2="370" stroke="#8A9299" stroke-width="2"/>
+  <line x1="300" y1="520" x2="300" y2="670" stroke="#8A9299" stroke-width="2"/>
+  <text x="330" y="455.0" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="30" font-weight="500" fill="#8A9299" text-anchor="start" letter-spacing="0" opacity="1">약 2km</text>
+  <text x="330" y="605.0" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="30" font-weight="500" fill="#8A9299" text-anchor="start" letter-spacing="0" opacity="1">약 2km</text>
+
+  <text x="960.0" y="810" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="56" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">폭 약 4km</text>
+  <text x="960.0" y="866" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="38" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">비무장지대 · DMZ</text>
+  <text x="960.0" y="940" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="28" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">선이 갈라지는 게 아니라 양쪽이 물러난다 · 축척 막대 필수</text>
+
+
+<g class="guide" opacity="0.30">
+    <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="666.2" y="34" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
+    <text x="24" y="930" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+  </g>
+</svg>

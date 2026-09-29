@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="3장 지뢰 위험">
+  <title>3장 지뢰 위험</title>
+  <rect width="1920" height="1080" fill="#0E1113"/>
+
+  <polygon points="960.0,330 810.0,590 1110.0,590" fill="none" stroke="#C2452D" stroke-width="6"/>
+  <text x="960.0" y="555" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="110" font-weight="700" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">!</text>
+  <text x="960.0" y="700" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="46" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">보이지 않기 때문에 더 오래 위험하다</text>
+  <text x="960.0" y="780" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="34" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">지뢰 · 불발탄</text>
+  <text x="960.0" y="900" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="28" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">⛔ 수치 금지 — 지뢰 총량·비율 일절 없음 / 정확한 위치를 지도에 표시하지 않는다</text>
+
+
+<g class="guide" opacity="0.30">
+    <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="666.2" y="34" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
+    <text x="24" y="930" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+  </g>
+</svg>

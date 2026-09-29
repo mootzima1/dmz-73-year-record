@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="6장 두 날짜 재등장">
+  <title>6장 두 날짜 재등장</title>
+  <rect width="1920" height="1080" fill="#0E1113"/>
+
+  <text x="510.0" y="420" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="86.8" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="4.96" opacity="1">2015. 8. 4</text><text x="510.0" y="483.24" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="37.2" font-weight="700" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">장병 2명 부상</text>
+  <text x="1410.0" y="420" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="86.8" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="4.96" opacity="1">2026. 9. 21</text><text x="1410.0" y="483.24" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="37.2" font-weight="700" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">장병 3명 부상</text>
+  <line x1="810.0" y1="410" x2="1110.0" y2="410" stroke="#8A9299" stroke-width="2"/>
+  <text x="960.0" y="400" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="34" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">11년</text>
+  <text x="960.0" y="660" font-family="'Noto Serif KR','본명조','Source Han Serif K','KoPubWorld바탕체','나눔명조','NanumMyeongjo',serif" font-size="40" font-weight="500" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">두 사건의 세부 원인과 조사 과정은 같지 않습니다</text>
+  <text x="960.0" y="730" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="28" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">연결점은 '11년 뒤에도 남은 지뢰 위험' 하나뿐 — 원인·책임을 같다고 연결하지 않는다</text>
+  <text x="960.0" y="880" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="30" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">0장 카드와 같은 레이아웃(컴포넌트 재사용) — 그래야 '되돌아왔다'가 읽힌다</text>
+
+
+<g class="guide" opacity="0.30">
+    <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="666.2" y="34" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
+    <text x="24" y="930" font-family="'Pretendard','Noto Sans KR','본고딕','Source Han Sans K','나눔고딕','NanumGothic',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+  </g>
+</svg>

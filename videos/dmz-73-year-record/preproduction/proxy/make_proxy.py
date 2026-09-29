@@ -47,10 +47,16 @@ def d(*a, **k):
 CX = W / 2
 out = {}
 
+def date_card(cx, cy, date, sub, k=1.0, sub_fill=None):
+    """0장·6장 공용 날짜 카드. 6장은 k를 줄여 두 장을 나란히 놓는다.
+    같은 레이아웃이어야 '오프닝으로 되돌아왔다'가 읽힌다."""
+    return (d(cx, cy, date, 140*k, ls=8*k)
+            + d(cx, cy + 102*k, sub, 60*k, sub_fill or C['alert']))
+
+
 # ── 0장 0-4 : 2026 출처 카드 ─────────────────────────────
 out["00_cold_open_source_card.svg"] = frame(f"""
-  {d(CX, 400, "2026. 9. 21", 140, ls=8)}
-  {d(CX, 502, "장병 3명 부상", 60, C['alert'])}
+  {date_card(CX, 400, "2026. 9. 21", "장병 3명 부상")}
   <rect x="{CX-430}" y="600" width="860" height="112" fill="none" stroke="{C['sub']}" stroke-width="2"/>
   {t(CX, 672, "국방부 중간 판단 (2026. 9. 28)", 44, C['sub'], 500)}
   {t(CX, 790, "※ '중간'을 빼지 말 것 — 유엔사 합동조사 최종 발표 이전이다", 28, C['alert'], 400)}
@@ -117,11 +123,70 @@ out["07_converge.svg"] = frame(f"""
   {t(CX, 900, "여유율 27% — 가장 빠듯한 장. 0·6장에서 각 4초 회수 권고", 30, C['alert'], 500)}
 """, "7장 수렴")
 
+# ── 1장 : MDL / DMZ 지도 (양쪽이 물러난다) ────────────────
+MY = 520          # MDL y좌표
+KM2 = 150         # 2km에 해당하는 픽셀
+out["01_mdl_map.svg"] = frame(f"""
+  <rect x="120" y="{MY-KM2-170}" width="1680" height="170" fill="{C['ground']}" opacity="0.55"/>
+  <rect x="120" y="{MY+KM2}" width="1680" height="170" fill="{C['ground']}" opacity="0.55"/>
+  {t(200, MY-KM2-60, "북", 40, C['sub'], 500, "start")}
+  {t(200, MY+KM2+110, "남", 40, C['sub'], 500, "start")}
+
+  <rect x="120" y="{MY-KM2}" width="1680" height="{KM2*2}" fill="{C['bg']}"/>
+  <line x1="120" y1="{MY-KM2}" x2="1800" y2="{MY-KM2}" stroke="{C['sub']}" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="120" y1="{MY+KM2}" x2="1800" y2="{MY+KM2}" stroke="{C['sub']}" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="120" y1="{MY}" x2="1800" y2="{MY}" stroke="{C['line']}" stroke-width="4"/>
+  {t(1770, MY-18, "MDL 군사분계선", 34, C['line'], 600, "end")}
+
+  <line x1="300" y1="{MY}" x2="300" y2="{MY-KM2}" stroke="{C['sub']}" stroke-width="2"/>
+  <line x1="300" y1="{MY}" x2="300" y2="{MY+KM2}" stroke="{C['sub']}" stroke-width="2"/>
+  {t(330, MY-KM2/2+10, "약 2km", 30, C['sub'], 500, "start")}
+  {t(330, MY+KM2/2+10, "약 2km", 30, C['sub'], 500, "start")}
+
+  {d(CX, 810, "폭 약 4km", 56)}
+  {t(CX, 866, "비무장지대 · DMZ", 38, C['sub'], 500)}
+  {t(CX, 940, "선이 갈라지는 게 아니라 양쪽이 물러난다 · 축척 막대 필수", 28, C['alert'], 400)}
+""", "1장 MDL/DMZ 지도")
+
+# ── 3장 : 땅속에 남은 위험 (수치 금지) ────────────────────
+out["03_mine_risk.svg"] = frame(f"""
+  <polygon points="{CX},330 {CX-150},590 {CX+150},590" fill="none" stroke="{C['alert']}" stroke-width="6"/>
+  {d(CX, 555, "!", 110, C['alert'])}
+  {d(CX, 700, "보이지 않기 때문에 더 오래 위험하다", 46)}
+  {t(CX, 780, "지뢰 · 불발탄", 34, C['sub'], 500)}
+  {t(CX, 900, "⛔ 수치 금지 — 지뢰 총량·비율 일절 없음 / 정확한 위치를 지도에 표시하지 않는다", 28, C['alert'], 400)}
+""", "3장 지뢰 위험")
+
+# ── 5장 : 2018 조치 아이콘 ───────────────────────────────
+acts = [("지뢰 제거", "MINE"), ("초소·화기 철수", "POST"), ("공동검증", "VERIFY"), ("GP 시범조치", "GP")]
+ic = "".join(
+    f'<rect x="{200+i*400}" y="380" width="320" height="220" fill="none" stroke="{C["act"]}" stroke-width="3"/>'
+    f'{t(360+i*400, 500, tag, 32, C["act"], 700, ls=3)}'
+    f'{t(360+i*400, 670, ko, 36, C["text"], 500)}'
+    for i, (ko, tag) in enumerate(acts))
+out["05_2018_actions.svg"] = frame(f"""
+  {d(CX, 260, "2018", 92, C['act'], ls=6)}
+  {ic}
+  {t(CX, 810, "조치명만 나열한다 — 평가어를 얹지 않는다", 32, C['alert'], 500)}
+  {t(CX, 870, "GP는 세부 수치 없이. 11/10/1은 1차 출처 미확보 (조사 큐 7번)", 28, C['alert'], 400)}
+""", "5장 2018 조치", "MOU")
+
+# ── 6장 : 두 날짜 재등장 (0장 카드 컴포넌트 재사용) ────────
+out["06_two_dates.svg"] = frame(f"""
+  {date_card(CX-450, 420, "2015. 8. 4", "장병 2명 부상", 0.62)}
+  {date_card(CX+450, 420, "2026. 9. 21", "장병 3명 부상", 0.62)}
+  <line x1="{CX-150}" y1="410" x2="{CX+150}" y2="410" stroke="{C['sub']}" stroke-width="2"/>
+  {t(CX, 400, "11년", 34, C['sub'], 500)}
+  {d(CX, 660, "두 사건의 세부 원인과 조사 과정은 같지 않습니다", 40, C['text'], 500)}
+  {t(CX, 730, "연결점은 '11년 뒤에도 남은 지뢰 위험' 하나뿐 — 원인·책임을 같다고 연결하지 않는다", 28, C['alert'], 400)}
+  {t(CX, 880, "0장 카드와 같은 레이아웃(컴포넌트 재사용) — 그래야 '되돌아왔다'가 읽힌다", 30, C['sub'], 500)}
+""", "6장 두 날짜 재등장")
+
 for name, svg in out.items():
     io.open(name, "w", encoding="utf-8").write(svg)
 
 cards = "".join(
-    f'<figure><img src="{n}" alt="{n}"><figcaption>{n}</figcaption></figure>' for n in out)
+    f'<figure><img src="{n}" alt="{n}"><figcaption>{n}</figcaption></figure>' for n in sorted(out))
 io.open("index.html", "w", encoding="utf-8").write(f"""<!doctype html><html lang="ko"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DMZ 프록시 보드</title>
