@@ -2,17 +2,17 @@
   <title>0장 2026 출처 카드</title>
   <rect width="1920" height="1080" fill="#0E1113"/>
 
-  <text x="960.0" y="400" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="150" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="6" opacity="1">2026. 9. 21</text>
-  <text x="960.0" y="500" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="64" font-weight="700" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">장병 3명 부상</text>
+  <text x="960.0" y="400" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="150" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="6" opacity="1">2026. 9. 21</text>
+  <text x="960.0" y="500" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="64" font-weight="700" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">장병 3명 부상</text>
   <rect x="530.0" y="600" width="860" height="112" fill="none" stroke="#8A9299" stroke-width="2"/>
-  <text x="960.0" y="672" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="48" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">국방부 중간 판단 (2026. 9. 28)</text>
-  <text x="960.0" y="790" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="28" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">※ '중간'을 빼지 말 것 — 유엔사 합동조사 최종 발표 이전이다</text>
+  <text x="960.0" y="672" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="48" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">국방부 중간 판단 (2026. 9. 28)</text>
+  <text x="960.0" y="790" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="28" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">※ '중간'을 빼지 말 것 — 유엔사 합동조사 최종 발표 이전이다</text>
 
-<text x="48" y="1024" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="24" letter-spacing="2" fill="#8A9299">MND BRIEFING</text>
+<text x="48" y="1024" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="24" letter-spacing="2" fill="#8A9299">MND BRIEFING</text>
 <g class="guide" opacity="0.30">
     <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
-    <text x="666.2" y="34" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <text x="666.2" y="34" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
     <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
-    <text x="24" y="930" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+    <text x="24" y="930" font-family="'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
   </g>
 </svg>

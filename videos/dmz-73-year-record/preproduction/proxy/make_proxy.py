@@ -2,12 +2,16 @@
 """12_graphics_spec.md 기준 프록시 프레임 생성기. 의존성 없음. 재실행하면 SVG를 다시 만든다."""
 import io, os
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))   # 어디서 실행하든 이 폴더에 쓴다
+
 W, H = 1920, 1080
 SAFE_W = H * 9 / 16              # 607.5 — 9:16 안전영역
 SAFE_X = (W - SAFE_W) / 2
 C = dict(bg="#0E1113", ground="#2A3136", line="#E8E3D9", alert="#C2452D",
          eco="#5E8C6A", act="#4A7C94", text="#E8E3D9", sub="#8A9299")
-FONT = "'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif"
+# 조선영상실록 채널 지정 폰트. 이 컨테이너엔 파일이 없어 프록시는 대체 폰트로 렌더된다.
+# 실제 작업 PC에는 SB-Aggro-B.otf가 설치돼 있어야 정확한 자형이 나온다.
+FONT = "'SB AggroOTF Bold','SB AggroOTF','SB Aggro OTF','SB 어그로체','Pretendard','Noto Sans KR',sans-serif"
 
 def frame(body, title, srcmark=None, guides=True):
     g = ""
