@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="4장 생태 데이터">
+  <title>4장 생태 데이터</title>
+  <rect width="1920" height="1080" fill="#0E1113"/>
+
+  <text x="960.0" y="190" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="52" font-weight="700" fill="#5E8C6A" text-anchor="middle" letter-spacing="0" opacity="1">DMZ 일원</text>
+  <text x="960.0" y="250" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="26" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">접경지역을 포함한 범위다 — 'DMZ 안'이 아니다</text>
+  <rect x="480.0" y="330" width="960" height="120" fill="#2A3136"/>
+  <rect x="480.0" y="330" width="15.4" height="120" fill="#5E8C6A"/>
+  <text x="480.0" y="500" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="40" font-weight="600" fill="#E8E3D9" text-anchor="start" letter-spacing="0" opacity="1">1,557㎢ = 국토의 1.6%</text>
+  <text x="1440.0" y="500" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="26" font-weight="400" fill="#8A9299" text-anchor="end" letter-spacing="0" opacity="1">← 띠의 폭이 실제 1.6% 비율</text>
+  <text x="480.0" y="650" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="110" font-weight="700" fill="#5E8C6A" text-anchor="start" letter-spacing="0" opacity="1">4,873</text>
+  <text x="780.0" y="650" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="44" font-weight="500" fill="#E8E3D9" text-anchor="start" letter-spacing="0" opacity="1">종 확인</text>
+  <text x="480.0" y="700" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="26" font-weight="400" fill="#8A9299" text-anchor="start" letter-spacing="0" opacity="1">환경부·국립생태원 종합 · 2016 발간 · 40여년 조사</text>
+  <text x="1080.0" y="650" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="110" font-weight="700" fill="#C2452D" text-anchor="start" letter-spacing="0" opacity="1">91</text>
+  <text x="1220.0" y="650" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="44" font-weight="500" fill="#E8E3D9" text-anchor="start" letter-spacing="0" opacity="1">종 멸종위기</text>
+  <text x="1080.0" y="700" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="26" font-weight="400" fill="#C2452D" text-anchor="start" letter-spacing="0" opacity="1">절대수만 표기 · 41%는 모수(222종) 병기 없이 쓰지 않는다</text>
+  <text x="960.0" y="900" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="30" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">동물 클로즈업 없이 규모로 받는다 — 외부 권리 의존 0</text>
+
+<text x="48" y="1024" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="24" letter-spacing="2" fill="#8A9299">ME/NIE 2016</text>
+<g class="guide" opacity="0.30">
+    <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="666.2" y="34" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
+    <text x="24" y="930" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+  </g>
+</svg>

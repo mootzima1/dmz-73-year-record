@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" role="img" aria-label="2장 연도카드">
+  <title>2장 연도카드</title>
+  <rect width="1920" height="1080" fill="#0E1113"/>
+
+  <rect x="400.0" y="340" width="520" height="300" fill="#2A3136" stroke="#8A9299" stroke-width="2"/><text x="660.0" y="460" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="96" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">1968</text><text x="660.0" y="536" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="38" font-weight="500" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">무장침투</text><text x="660.0" y="596" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="22" font-weight="400" fill="#8A9299" text-anchor="middle" letter-spacing="2" opacity="1">NATIONAL ARCHIVES</text>
+  <rect x="1000.0" y="340" width="520" height="300" fill="#2A3136" stroke="#8A9299" stroke-width="2"/><text x="1260.0" y="460" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="96" font-weight="700" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">1976</text><text x="1260.0" y="536" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="38" font-weight="500" fill="#E8E3D9" text-anchor="middle" letter-spacing="0" opacity="1">판문점</text><text x="1260.0" y="596" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="22" font-weight="400" fill="#8A9299" text-anchor="middle" letter-spacing="2" opacity="1">NATIONAL ARCHIVES</text>
+  <rect x="1600.0" y="340" width="200" height="300" fill="none" stroke="#8A9299" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <text x="1700.0" y="470" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="40" font-weight="700" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="0.5">1970s</text>
+  <text x="1700.0" y="520" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="28" font-weight="500" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="0.7">보류</text>
+  <text x="960.0" y="760" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="32" font-weight="500" fill="#8A9299" text-anchor="middle" letter-spacing="0" opacity="1">카드 2개 · 카드당 체류 22.5초 (카드 위에서 컷 분할)</text>
+  <text x="960.0" y="820" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="26" font-weight="400" fill="#C2452D" text-anchor="middle" letter-spacing="0" opacity="1">점선 = 1970년대 땅굴. 근거 확보 시 복원되도록 3개 기준으로 레이아웃</text>
+
+
+<g class="guide" opacity="0.30">
+    <rect x="656.2" y="0" width="607.5" height="1080" fill="none" stroke="#C2452D" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="666.2" y="34" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="22" fill="#C2452D">9:16 안전영역 607×1080</text>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#8A9299" stroke-width="1" stroke-dasharray="6 8"/>
+    <text x="24" y="930" font-family="'Pretendard','Pretendard Variable','Noto Sans KR','NanumGothic','나눔고딕',sans-serif" font-size="20" fill="#8A9299">자막 여백 180px</text>
+  </g>
+</svg>
